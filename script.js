@@ -1258,12 +1258,12 @@ let speakersSwiper = null;
 const cityData = {
   mysuru: {
     date: "November 29th, 2025",
-    location: "Mysore",
+    location: "Mysuru",
     venue: "Grand Mercure Mysore",
     timeline: [
       {
         time: "05:00 PM – 05:30 PM",
-        title: "Registration & Hi-Tea",
+        title: "high tea",
         desc: "Guest arrivals, registrations, and welcome refreshments",
         side: "right",
       },
@@ -1311,7 +1311,7 @@ const cityData = {
       },
       {
         time: "09:00 PM Onwards",
-        title: "Closing Note + Cocktails + Dinner",
+        title: "Dinner",
         desc: "Final remarks followed by cocktails and dinner",
         side: "right",
       },
@@ -1338,8 +1338,14 @@ const cityData = {
       {
         name: "Mr. Prasanna Kumar",
         title: "Founder",
-        company: "Vikart",
+        company: "Vilkart",
         image: "./Zee All Images:Videos/Speakers my4.jpg",
+      },
+      {
+        name: "Mr. Suchindra KanakanPalaya",
+        title: "General Partner",
+        company: "Eagle 10 Ventures",
+        image: "./Zee All Images:Videos/Speakers my5.jpg",
       },
     ],
   },
