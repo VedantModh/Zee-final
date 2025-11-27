@@ -1299,8 +1299,8 @@ const cityData = {
       },
       {
         time: "08:00 PM – 08:30 PM",
-        title: "Mr. Prasanna Kumar",
-        desc: "From Aspirations to Access: Building a Rural-Exclusive E-Commerce Model | Presented by Mr. Prasanna Kumar – Founder, Vikart",
+        title: "Prasanna Kumar C",
+        desc: "From Aspirations to Access: Building a Rural-Exclusive E-Commerce Model | Presented by Prasanna Kumar C – Founder and CEO, VilCart",
         side: "right",
       },
       {
