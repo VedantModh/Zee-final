@@ -1294,7 +1294,7 @@ const cityData = {
       {
         time: "07:30 PM – 08:00 PM",
         title: "Mr. Vinay Gopinath",
-        desc: "Special address by Mr. Vinay Gopinath – Chief Growth Officer, Adukalé (topic to be announced on-site)",
+        desc: "Scaling Food Brands in India — The Playbook for Market Acquisition, Consumer Insight & Value Innovation | Presented by Mr. Vinay Gopinath – Chief Growth Officer, Adukale",
         side: "left",
       },
       {
@@ -1306,7 +1306,7 @@ const cityData = {
       {
         time: "08:30 PM – 09:00 PM",
         title: "Mr. Suchindra Kanakanapalya",
-        desc: "Keynote by Mr. Suchindra Kanakanapalya (session details to be announced)",
+        desc: "From Idea to Investment: How Founders Can Build Business Models That Attract Capital and Create Long-Term Value | Presented by Mr. Suchindra Kanakanapalya – General Partner, Eagle 10 Ventures",
         side: "left",
       },
       {
