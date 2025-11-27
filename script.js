@@ -1336,13 +1336,13 @@ const cityData = {
         image: "./Zee All Images:Videos/Speakers my3.jpg",
       },
       {
-        name: "Mr. Prasanna Kumar",
-        title: "Founder",
-        company: "Vilkart",
+        name: "Prasanna Kumar C",
+        title: "Founder and CEO",
+        company: "VilCart",
         image: "./Zee All Images:Videos/Speakers my4.jpg",
       },
       {
-        name: "Mr. Suchindra KanakanPalaya",
+        name: "Mr. Suchindra Kanakanapalya",
         title: "General Partner",
         company: "Eagle 10 Ventures",
         image: "./Zee All Images:Videos/Speakers my5.jpg",
