@@ -1305,8 +1305,8 @@ const cityData = {
       },
       {
         time: "08:30 PM – 09:00 PM",
-        title: "Mr. Suchindra Kanakan Palaya",
-        desc: "Keynote by Mr. Suchindra Kanakan Palaya (session details to be announced)",
+        title: "Mr. Suchindra Kanakanapalya",
+        desc: "Keynote by Mr. Suchindra Kanakanapalya (session details to be announced)",
         side: "left",
       },
       {
