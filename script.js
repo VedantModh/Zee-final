@@ -1256,6 +1256,117 @@ let speakersSwiper = null;
 
 // City data
 const cityData = {
+  kochi: {
+    date: "December 5th, 2025",
+    location: "Kochi",
+    venue: "Kochi Marriott Hotel",
+    timeline: [
+      {
+        time: "05:00 PM – 05:30 PM",
+        title: "Registration & Hi-Tea",
+        desc: "Guest arrivals, registrations, and welcome refreshments",
+        side: "right",
+      },
+      {
+        time: "05:30 PM – 06:00 PM",
+        title: "Ms. Laxmi Shetty",
+        desc: "Z' Omnichannel Ecosystem | Presented by Ms. Laxmi Shetty – Head, Advertisement Revenue (Broadcast & Digital), Zee Entertainment Enterprises Ltd.",
+        side: "left",
+      },
+      {
+        time: "06:00 PM – 06:30 PM",
+        title: "Mr. M.P Ramachandran",
+        desc: "Role of Media in building a brand | Presented by Mr. M.P Ramachandran – Founder and Chairman Emeritus, Jyothi Labs Ltd",
+        side: "right",
+      },
+      {
+        time: "06:30 PM – 07:00 PM",
+        title: "Mr. Orwell Lionel",
+        desc: "Building a Commerce Education Powerhouse: Vision + Execution | Presented by Mr. Orwell Lionel – Founder and Managing Director, Lakshya Institute",
+        side: "left",
+      },
+      {
+        time: "07:00 PM – 07:30 PM",
+        title: "Mr. Subhasish Neogi & Ms. Divjyot Dhanda",
+        desc: "Z' Omnichannel Strength & Custom Package Offering | Presented by Mr. Subhasish Neogi – National Sales Head, Zee Keralam & Ms. Divjyot Dhanda – National Sales Head, Telugu Cluster",
+        side: "right",
+      },
+      {
+        time: "07:30 PM – 08:00 PM",
+        title: "Mr. Arun V Nair",
+        desc: "Session details to be announced | Presented by Mr. Arun V Nair – Executive Director - Marketing, Pankajakasthuri Herbals",
+        side: "left",
+      },
+      {
+        time: "08:00 PM – 08:30 PM",
+        title: "Mr. V. Sunil Kumar",
+        desc: "Session details to be announced | Presented by Mr. V. Sunil Kumar – Founder and Managing Director, Asset Homes",
+        side: "right",
+      },
+      {
+        time: "08:30 PM – 09:00 PM",
+        title: "Mr. Shrikumar Menon",
+        desc: "Session details to be announced | Presented by Mr. Shrikumar Menon – Chairman & Managing Director, Push Integrated Communications",
+        side: "left",
+      },
+      {
+        time: "09:00 PM Onwards",
+        title: "Closing Note + Cocktails + Dinner",
+        desc: "Final remarks followed by cocktails and dinner",
+        side: "right",
+      },
+    ],
+    speakers: [
+      {
+        name: "Ms. Laxmi Shetty",
+        title: "Head - Advertisement Revenue, Broadcast & Digital",
+        company: "Zee Entertainment Enterprises Ltd.",
+        image: "./Zee All Images:Videos/Speakers cm1.jpg",
+      },
+      {
+        name: "Mr. M.P Ramachandran",
+        title: "Founder and Chairman Emeritus",
+        company: "Jyothi Labs Ltd",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Orwell Lionel",
+        title: "Founder and Managing Director",
+        company: "Lakshya Institute",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Subhasish Neogi",
+        title: "National Sales Head",
+        company: "Zee Keralam",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Ms. Divjyot Dhanda",
+        title: "National Sales Head",
+        company: "Telugu Cluster",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Arun V Nair",
+        title: "Executive Director - Marketing",
+        company: "Pankajakasthuri Herbals",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. V. Sunil Kumar",
+        title: "Founder and Managing Director",
+        company: "Asset Homes",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Shrikumar Menon",
+        title: "Chairman & Managing Director",
+        company: "Push Integrated Communications",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+    ],
+  },
   mysuru: {
     date: "November 29th, 2025",
     location: "Mysuru",
@@ -2361,7 +2472,7 @@ function initAgendaSection() {
   }
 
   // Initialize with default city
-  const defaultCity = "mysuru";
+  const defaultCity = "kochi";
   if (cityData[defaultCity]) {
     switchCity(defaultCity);
   }
