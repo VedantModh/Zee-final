@@ -1351,13 +1351,13 @@ const cityData = {
         name: "Mr. Arun V Nair",
         title: "Executive Director - Marketing",
         company: "Pankajakasthuri Herbals",
-        image: "./Zee All Images:Videos/Speakers 13.png",
+        image: "./Zee All Images:Videos/Speakers ko5.jpg",
       },
       {
         name: "Mr. V. Sunil Kumar",
         title: "Founder and Managing Director",
         company: "Asset Homes",
-        image: "./Zee All Images:Videos/Speakers 13.png",
+        image: "./Zee All Images:Videos/Speakers ko6.jpg",
       },
       {
         name: "Mr. Shrikumar Menon",
