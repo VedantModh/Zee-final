@@ -1256,6 +1256,99 @@ let speakersSwiper = null;
 
 // City data
 const cityData = {
+  madurai: {
+    date: "December 6th, 2025",
+    location: "Madurai",
+    venue: "Hotel GRT Grand",
+    timeline: [
+      {
+        time: "05:00 PM – 06:00 PM",
+        title: "Registration & Hi-Tea",
+        desc: "Guest arrivals, registrations, and welcome refreshments",
+        side: "right",
+      },
+      {
+        time: "06:00 PM – 06:30 PM",
+        title: "Mr. Rajnish Gupta",
+        desc: "Z' Omnichannel Ecosystem | Presented by Mr. Rajnish Gupta – Chief Sales Officer - South, Zee Entertainment Enterprises Ltd.",
+        side: "left",
+      },
+      {
+        time: "06:30 PM – 07:00 PM",
+        title: "Mr. Rajiv S. Jeyabalan",
+        desc: "Transforming Legacy Finance into a Digital-Enabled Future: The Susee Finance Journey - A story of how an entrepreneurial look at how an NBFC is being reshaped into a fintech using customer-friendly technology and data-led decision making | Presented by Mr. Rajiv S. Jeyabalan – Executive Director, Susee Finance & Leasing Pvt Ltd",
+        side: "right",
+      },
+      {
+        time: "07:00 PM – 07:30 PM",
+        title: "Mr. G. Aravind",
+        desc: "From 1932 to Now: How Legacy Food Brands Stay Relevant & Customer Trust as the Best Marketing Strategy | Presented by Mr. G. Aravind – Managing Partner, RKG GHEE",
+        side: "left",
+      },
+      {
+        time: "07:30 PM – 08:00 PM",
+        title: "Mr. Santosh Awasthi",
+        desc: "Z' Omnichannel Strength & Custom Package Offering | Presented by Mr. Santosh Awasthi – National Sales Head - Tamil Cluster, Zee Entertainment Enterprises Ltd.",
+        side: "right",
+      },
+      {
+        time: "08:00 PM – 08:30 PM",
+        title: "Mr. Sugumar",
+        desc: "Building India's Healthy Food Future: The Anil Foods Journey from Dindigul to the World - A visionary narrative of how a regional brand scaled across South India and became a trusted household FMCG name | Presented by Mr. Sugumar – Executive Director, TOP ANIL MARKETING COMPANY",
+        side: "left",
+      },
+      {
+        time: "08:30 PM – 09:00 PM",
+        title: "Mr. Rajiv Vignesh",
+        desc: "Purity as a Brand Promise: Competing Without Compromising | Presented by Mr. Rajiv Vignesh – Director, VVV & SONS EDIBLE OIL LTD (BRAND - MANTRA & IDHAYAM OIL)",
+        side: "right",
+      },
+      {
+        time: "09:00 PM Onwards",
+        title: "Closing Note + Dinner",
+        desc: "Final remarks followed by dinner",
+        side: "left",
+      },
+    ],
+    speakers: [
+      {
+        name: "Mr. Rajnish Gupta",
+        title: "Chief Sales Officer - South",
+        company: "Zee Entertainment Enterprises Ltd.",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Rajiv S. Jeyabalan",
+        title: "Executive Director",
+        company: "Susee Finance & Leasing Pvt Ltd",
+        image: "./Zee All Images:Videos/Speakers md4.png",
+      },
+      {
+        name: "Mr. G. Aravind",
+        title: "Managing Partner",
+        company: "RKG GHEE",
+        image: "./Zee All Images:Videos/Speakers md3.png",
+      },
+      {
+        name: "Mr. Santosh Awasthi",
+        title: "National Sales Head - Tamil Cluster",
+        company: "Zee Entertainment Enterprises Ltd.",
+        image: "./Zee All Images:Videos/Speakers 13.png",
+      },
+      {
+        name: "Mr. Sugumar",
+        title: "Executive Director",
+        company: "TOP ANIL MARKETING COMPANY",
+        image: "./Zee All Images:Videos/Speakers md1.jpg",
+      },
+      {
+        name: "Mr. Rajiv Vignesh",
+        title: "Director",
+        company: "VVV & SONS EDIBLE OIL LTD (BRAND - MANTRA & IDHAYAM OIL)",
+        image: "./Zee All Images:Videos/Speakers md2.jpg",
+      },
+    ],
+  },
   kochi: {
     date: "December 5th, 2025",
     location: "Kochi",
@@ -2460,7 +2553,7 @@ function initAgendaSection() {
   }
 
   // Initialize with default city
-  const defaultCity = "kochi";
+  const defaultCity = "madurai";
   if (cityData[defaultCity]) {
     switchCity(defaultCity);
   }
