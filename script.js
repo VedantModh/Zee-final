@@ -1263,8 +1263,8 @@ const cityData = {
     timeline: [
       {
         time: "05:00 PM – 06:00 PM",
-        title: "Registration & Hi-Tea",
-        desc: "Guest arrivals, registrations, and welcome refreshments",
+        title: "Hi-Tea",
+        desc: "Welcome refreshments and networking",
         side: "right",
       },
       {
@@ -1276,25 +1276,25 @@ const cityData = {
       {
         time: "06:30 PM – 07:00 PM",
         title: "Mr. Rajiv S. Jeyabalan",
-        desc: "Transforming Legacy Finance into a Digital-Enabled Future: The Susee Finance Journey - A story of how an entrepreneurial look at how an NBFC is being reshaped into a fintech using customer-friendly technology and data-led decision making | Presented by Mr. Rajiv S. Jeyabalan – Executive Director, Susee Finance & Leasing Pvt Ltd",
+        desc: "Transforming Legacy Finance into a Digital-Enabled Future: The Susee Finance Journey | Presented by Mr. Rajiv S. Jeyabalan – Executive Director, Susee Finance & Leasing Pvt Ltd",
         side: "right",
       },
       {
         time: "07:00 PM – 07:30 PM",
         title: "Mr. G. Aravind",
-        desc: "From 1932 to Now: How Legacy Food Brands Stay Relevant & Customer Trust as the Best Marketing Strategy | Presented by Mr. G. Aravind – Managing Partner, RKG GHEE",
+        desc: "From 1932 to Now: How Legacy Food Brands Stay Relevant & Customer Trust as the Best Marketing Strategy | Presented by Mr. G. Aravind – Managing Partner, RKG Ghee",
         side: "left",
       },
       {
         time: "07:30 PM – 08:00 PM",
-        title: "Mr. Santosh Awasthi",
-        desc: "Z' Omnichannel Strength & Custom Package Offering | Presented by Mr. Santosh Awasthi – National Sales Head - Tamil Cluster, Zee Entertainment Enterprises Ltd.",
+        title: "Mr. Rajnish Gupta & Mr. Santosh Awasthi",
+        desc: "Z' Omnichannel Strength & Custom Package Offering | Presented by Mr. Rajnish Gupta – Chief Sales Officer - South, Zee Entertainment Enterprises Ltd. & Mr. Santosh Awasthi – National Sales Head - Tamil Cluster, Zee Entertainment Enterprises Ltd.",
         side: "right",
       },
       {
         time: "08:00 PM – 08:30 PM",
         title: "Mr. Sugumar",
-        desc: "Building India's Healthy Food Future: The Anil Foods Journey from Dindigul to the World - A visionary narrative of how a regional brand scaled across South India and became a trusted household FMCG name | Presented by Mr. Sugumar – Executive Director, TOP ANIL MARKETING COMPANY",
+        desc: "Building India's Healthy Food Future: The Anil Foods Journey from Dindigul to the World | Presented by Mr. Sugumar – Executive Director, Top Anil Marketing Company",
         side: "left",
       },
       {
@@ -1305,8 +1305,8 @@ const cityData = {
       },
       {
         time: "09:00 PM Onwards",
-        title: "Closing Note + Dinner",
-        desc: "Final remarks followed by dinner",
+        title: "Dinner",
+        desc: "Networking dinner",
         side: "left",
       },
     ],
@@ -1315,7 +1315,7 @@ const cityData = {
         name: "Mr. Rajnish Gupta",
         title: "Chief Sales Officer - South",
         company: "Zee Entertainment Enterprises Ltd.",
-        image: "./Zee All Images:Videos/Speakers 13.png",
+        image: "./Zee All Images:Videos/Speakers md5.png",
       },
       {
         name: "Mr. Rajiv S. Jeyabalan",
@@ -1326,19 +1326,19 @@ const cityData = {
       {
         name: "Mr. G. Aravind",
         title: "Managing Partner",
-        company: "RKG GHEE",
+        company: "RKG Ghee",
         image: "./Zee All Images:Videos/Speakers md3.png",
       },
       {
         name: "Mr. Santosh Awasthi",
         title: "National Sales Head - Tamil Cluster",
         company: "Zee Entertainment Enterprises Ltd.",
-        image: "./Zee All Images:Videos/Speakers 13.png",
+        image: "./Zee All Images:Videos/Speakers md6.jpg",
       },
       {
         name: "Mr. Sugumar",
         title: "Executive Director",
-        company: "TOP ANIL MARKETING COMPANY",
+        company: "Top Anil Marketing Company",
         image: "./Zee All Images:Videos/Speakers md1.jpg",
       },
       {
